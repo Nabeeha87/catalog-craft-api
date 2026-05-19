@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Product-Catalog" },
+      { name: "description", content: "RESTful API for managing product catalogs with CRUD, search, filtering, and pagination." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Product-Catalog" },
+      { property: "og:description", content: "RESTful API for managing product catalogs with CRUD, search, filtering, and pagination." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Product-Catalog" },
+      { name: "twitter:description", content: "RESTful API for managing product catalogs with CRUD, search, filtering, and pagination." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7af33275-88f6-4fcb-9499-269244a91b86/id-preview-9775c3b1--cbcfbc20-1598-4078-bf22-80afd7ede4cd.lovable.app-1778747778474.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7af33275-88f6-4fcb-9499-269244a91b86/id-preview-9775c3b1--cbcfbc20-1598-4078-bf22-80afd7ede4cd.lovable.app-1778747778474.png" },
     ],
     links: [
       {
